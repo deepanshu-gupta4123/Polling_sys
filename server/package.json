@@ -1,0 +1,29 @@
+{
+  "name": "polling-system-server",
+  "version": "1.0.0",
+  "description": "Live polling system backend with Socket.io",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "polling",
+    "websocket",
+    "real-time"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.1",
+    "nanoid": "^5.0.4",
+    "socket.io": "^4.6.1"
+  }
+}
